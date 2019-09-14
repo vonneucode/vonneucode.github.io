@@ -76,7 +76,7 @@
             Documentation
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
+            <a class="navbar-link" href="/products" >
               Products
             </a>
 
@@ -144,7 +144,7 @@
           Documentation
         </a>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
+          <a class="navbar-link" href="/products" >
             Products
           </a>
 
@@ -185,7 +185,7 @@
                 <span class="icon-box-title">Display Adapter Addon Board</span>
                 <span class="icon-box-subtitle">KWAEK Model# SH-DB410-SHT80</span>
 
-                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</span>
+                <span class="icon-box-text">Display adapter board with built-in LED driver and power circuits. The LCD Panel connects to the board through the high speed MIPI DSI 60 pin connector. The DragonBoard&rsquo;s connections are extended to the display adapter board through similar headers (the 40 pin LS expansion header). There is also a 40 pin ribbon connector available to extend the remaining connections on the host board&rsquo;s HS expansion header.</span>
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@
                 <span class="icon-box-title">Full HD 6&#34; LCD Panel</span>
                 <span class="icon-box-subtitle">Sharp Model# LS060T1SX01</span>
 
-                <span class="icon-box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</span>
+                <span class="icon-box-text">Active matrix 16,777,216 color LCD module. Main color LCD module is controlled by Driver IC (NT35695). Capacitive touch functions are controlled by Touch controller (LR388K5). LCD Panel embedded New Mode TP, Driver (COG), FPC with touch controller IC and electric components, 16 White LED lumps, prism sheet, diffuser, light guide and reflector, plastic frame and PET Sheet.  B to B connector (JAE, WP9-P060VA1 60 pins, 0.4mm pitch)</span>
               </p>
             </div>
           </div>
@@ -242,43 +242,87 @@
 </section>
 <h3 class="subtitle is-3">Downloads</h3></p>
 
-<h4 class="subtitle is-4">Android Fastboot images</h4>
-
-<p><section class="section section-feature-grey">
-<h5 class="subtitle is-5">Bootloader</h5></p>
-
-<p>Download
+<p>Below are pre-built images ready to be flashed onto your Dragonboard 410C. Please refer to <a>Documentation</a> to build your own custom images.
 <br/><br/>
-<h5 class="subtitle is-5">Stable snapshot</h5></p>
+<h4 class="subtitle is-4">Android Fastboot Images</h4></p>
 
-<p><table class="table is-fullwidth">
-<tr>
-<td>boot.img.tar.xz</td>
-<td><i data-feather="download" class="feather-16"></i></td>
-</tr>
-<tr>
-<td>system.img.tar.xz</td>
-<td><i data-feather="download" class="feather-16"></i></td>
-</tr>
-<tr>
-<td>userdata.img.tar.xz</td>
-<td><i data-feather="download" class="feather-16"></i></td>
-</tr>
-<tr>
-<td>recovery.img.tar.xz</td>
-<td><i data-feather="download" class="feather-16"></i></td>
-</tr>
-<tr>
-<td>persist.img.tar.xz</td>
-<td><i data-feather="download" class="feather-16"></i></td>
-</tr>
-<tr>
-<td>cache.img.tar.xz</td>
-<td><i data-feather="download" class="feather-16"></i></td>
-</tr>
-</table>
+<section class="section section-feature-grey">
+<h5 class="subtitle is-5">Bootloader</h5>
+
+ <table class="table is-fullwidth">
+    <tr>
+    <td>Download</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+  </table>
+<h5 class="subtitle is-5">Stable Snapshot</h5>
+
+<div class="table-container">
+  <table class="table is-fullwidth">
+  <tbody>
+    <tr>
+    <td>boot.img.tar.xz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td>system.img.tar.xz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td>userdata.img.tar.xz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td>recovery.img.tar.xz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td>persist.img.tar.xz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td><span>cache.img.tar.xz</span></td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 </section>
-<h4 class="subtitle is-4">Windows 10 IoT Core ffu</h4></p>
+<br/><br/>
+<h4 class="subtitle is-4">Linaro / Debian Images</h4>
+
+
+<section class="section section-feature-grey">
+<h5 class="subtitle is-5">Stable Snapshot</h5>
+
+  <table class="table is-fullwidth">
+    <tr>
+    <td>boot-*.img.gz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td>linaro-*.img.gz</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+  </table>
+</section>
+<br/><br/>
+<h4 class="subtitle is-4">Windows 10 IoT Core FFU</h4>
+
+<section class="section section-feature-grey">
+<h5 class="subtitle is-5">FFU</h5>
+
+  <table class="table is-fullwidth">
+    <tr>
+    <td>win10iotcore-dragonboard410c-20190914.ffu.zip</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+    <tr>
+    <td>panelcfg.xml</td>
+    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    </tr>
+  </table>
+</section>
 
 
     
@@ -297,6 +341,9 @@
             <div class="card-title">
               <h4>Amazon</h4>
             </div>
+            <div class="card-icon">
+                <i class="fa fa-amazon fa-4x"></i>
+            </div>
             <div class="card-text">
                 <p></p>
             </div>
@@ -309,6 +356,9 @@
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
               <h4>eBay</h4>
+            </div>
+            <div class="card-icon">
+                <i class="fa fa-shopping-bag fa-4x"></i>
             </div>
             <div class="card-text">
                 <p></p>
