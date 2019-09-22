@@ -364,13 +364,13 @@ if (!doNotTrack) {
           <form action="https://docs.google.com/forms/d/e/1FAIpQLSc0cd3AdLXiDUI8XIZ401JE9AhvMuojZhZMFZrYxntPwE2kag/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input name="entry.2005620554" class="input is-medium" type="text" placeholder="Enter your name">
+                <input name="entry.2005620554" class="input is-medium" type="text" placeholder="Enter your name" required data-validation-required-message="Please enter name">
               </div>
               <div class="column is-6">
-                <input name="entry.1045781291" class="input is-medium" type="email" placeholder="Enter your email address">
+                <input name="entry.1045781291" class="input is-medium" type="email" placeholder="Enter your email address" required data-validation-required-message="Please enter your email id">
               </div>
               <div class="column is-12">
-                <textarea name="entry.839337160" class="textarea" rows="10" placeholder="Write someting..."></textarea>
+                <textarea name="entry.839337160" class="textarea" rows="10" placeholder="Write someting..." required data-validation-required-message="Please enter your questions or comments"></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
                 <button type="submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
@@ -511,10 +511,14 @@ if (!doNotTrack) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://unpkg.com/feather-icons"></script>
 <script src="/js/fresh.js"></script>
+<script src="/js/jqBootstrapValidation.js"></script>
 <script src="/js/jquery.panelslider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script>
     feather.replace()
+</script>
+<script>
+        $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
 </script>
   </body>
 </html>
