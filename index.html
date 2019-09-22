@@ -358,19 +358,22 @@ if (!doNotTrack) {
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+            onload="if(submitted) {window.location='thankyou';}"></iframe>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSc0cd3AdLXiDUI8XIZ401JE9AhvMuojZhZMFZrYxntPwE2kag/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Enter your name">
+                <input name="entry.2005620554" class="input is-medium" type="text" placeholder="Enter your name">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Enter your email address">
+                <input name="entry.1045781291" class="input is-medium" type="email" placeholder="Enter your email address">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="Write someting..."></textarea>
+                <textarea name="entry.839337160" class="textarea" rows="10" placeholder="Write someting..."></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
+                <button type="submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
               </div>
             </div>
           </form>
