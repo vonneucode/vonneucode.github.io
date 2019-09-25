@@ -320,79 +320,82 @@ if (!doNotTrack) {
         
     </div>
 </section>
-<h3 class="subtitle is-3">Downloads</h3></p>
-
-<p>Below are pre-built images ready to be flashed onto your Dragonboard 410C. Please refer to <a>Documentation</a> to build your own custom images.
+<span id="downloads"><h3 class="subtitle is-3">Downloads</h3>
+</span>
+Below are pre-built images ready to be flashed onto your Dragonboard 410C. Please follow instructions here <a href= "https://www.96boards.org/documentation/consumer/dragonboard/dragonboard410c/installation/linux-fastboot.md.html" target="_blank">dragonboard410c-installation-linux-fastboot</a> on 96Boards.com to flash the images using fastboot on a linux host. These images have the display drivers as well as the touch panel drivers integrated. Please refer to <a>documentation</a> section for instructions to build your own custom images with the source files and the supplied driver files. We have also shared the source driver files as well as detailed instructions to customize the Operating Systems.
 <br/><br/>
 <h4 class="subtitle is-4">Android Fastboot Images</h4></p>
 
-<section class="section section-feature-grey">
-<h5 class="subtitle is-5">Bootloader</h5>
+<p><section  class="section section-feature-grey">
+<h5 class="subtitle is-5">Bootloader</h5></p>
 
- <table class="table is-fullwidth">
+<p><table class="table is-fullwidth">
     <tr>
     <td>Download</td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td> <a href="https://devkwaek.blob.core.windows.net/image-android/bootloader.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
   </table>
-<h5 class="subtitle is-5">Stable Snapshot</h5>
+<h5 class="subtitle is-5">Stable Snapshot</h5></p>
 
-<div class="table-container">
+<p><div class="table-container">
   <table class="table is-fullwidth">
   <tbody>
     <tr>
     <td>boot.img.tar.xz</td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/boot.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
     <tr>
     <td>system.img.tar.xz</td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/system.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
     <tr>
     <td>userdata.img.tar.xz</td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/userdata.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
     <tr>
     <td>recovery.img.tar.xz</td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/recovery.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
     <tr>
     <td>persist.img.tar.xz</td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/persist.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
     <tr>
     <td><span>cache.img.tar.xz</span></td>
-    <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/cache.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
+    </tr>
+    <tr>
+    <td><span>splash.img.tar.xz</span></td>
+    <td><a href="https://devkwaek.blob.core.windows.net/image-android/splash.img.tar.xz"><i data-feather="download" class="feather-16 is-pulled-right"></i></a></td>
     </tr>
   </tbody>
   </table>
 </div>
 </section>
 <br/><br/>
-<h4 class="subtitle is-4">Linaro / Debian Images</h4>
+<h4 class="subtitle is-4">Linaro / Debian Images *</h4></p>
 
+<p><section class="section section-feature-grey">
+<h5 class="subtitle is-5">Stable Snapshot</h5></p>
 
-<section class="section section-feature-grey">
-<h5 class="subtitle is-5">Stable Snapshot</h5>
-
-  <table class="table is-fullwidth">
+<p><table class="table is-fullwidth">
     <tr>
-    <td>boot-*.img.gz</td>
+    <td>boot-<em>.img.gz</td>
     <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
     </tr>
     <tr>
-    <td>linaro-*.img.gz</td>
+    <td>linaro-</em>.img.gz</td>
     <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
     </tr>
   </table>
 </section>
 <br/><br/>
-<h4 class="subtitle is-4">Windows 10 IoT Core FFU</h4>
+<h4 class="subtitle is-4">Windows 10 IoT Core FFU *</h4></p>
 
-<section class="section section-feature-grey">
-<h5 class="subtitle is-5">FFU</h5>
+<p><section class="section section-feature-grey">
+<h5 class="subtitle is-5">FFU</h5></p>
 
-  <table class="table is-fullwidth">
+<p><table class="table is-fullwidth">
     <tr>
     <td>win10iotcore-dragonboard410c-20190914.ffu.zip</td>
     <td><i data-feather="download" class="feather-16 is-pulled-right"></i></td>
@@ -403,6 +406,7 @@ if (!doNotTrack) {
     </tr>
   </table>
 </section>
+* Images will be available soon</p>
 
 
     
@@ -546,11 +550,6 @@ if (!doNotTrack) {
                   Our roadmap
                 </a>
               </li>
-              <li>
-                <a href="/agb">
-                  AGB
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -561,42 +560,18 @@ if (!doNotTrack) {
             </div>
             <ul class="link-list">
               <li>
-                <a href="/">
+                <a href="/products">
                   Get started
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="/documentation">
                   User guides
                 </a>
               </li>
               <li>
-                <a href="/">
-                  Admin guide
-                </a>
-              </li>
-              <li>
-                <a href="/">
+                <a href="/documentation">
                   Developers
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="column">
-          <div class="footer-column">
-            <div class="footer-header">
-                <h3>Blog</h3>
-            </div>
-            <ul class="link-list">
-              <li>
-                <a href="/blog/first">
-                  Latest news
-                </a>
-              </li>
-              <li>
-                <a href="/blog/second">
-                  Tech articles
                 </a>
               </li>
             </ul>
