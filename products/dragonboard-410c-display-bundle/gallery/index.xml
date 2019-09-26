@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KWAEK - DIY, Realize the potential!</title>
-    <link>/products/dragonboard-410c-display-bundle/gallery/</link>
+    <link>https://kwaek.ca/products/dragonboard-410c-display-bundle/gallery/</link>
     <description>Recent content on KWAEK - DIY, Realize the potential!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/products/dragonboard-410c-display-bundle/gallery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kwaek.ca/products/dragonboard-410c-display-bundle/gallery/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

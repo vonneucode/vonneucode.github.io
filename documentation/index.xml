@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation on KWAEK - DIY, Realize the potential!</title>
-    <link>/documentation/</link>
+    <link>https://kwaek.ca/documentation/</link>
     <description>Recent content in Documentation on KWAEK - DIY, Realize the potential!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kwaek.ca/documentation/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
